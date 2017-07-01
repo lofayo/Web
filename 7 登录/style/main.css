@@ -1,0 +1,36 @@
+/*common style*/
+a{color:black;}
+/*login*/
+.login,.register{padding-bottom:150px;}
+.header{height:84px;background-color: #1D7AD9;line-height: 84px;}
+.header img{float:left;margin-left:33%;margin-top:12px;}
+.header h3{color:white;float:left;font-size:20px;font-weight: normal;margin-left:24px;}
+.loginBox{width:459px;border:1px solid #cccccc;margin:10px auto;}
+.loginBox div{margin:0 auto 26px;width:305px;}
+.inputDesc,.otherLogin_desc{color:#999;}
+.inputTxt{width:285px;height:32px;border:1px solid #cccccc;line-height:32px;padding:0 10px;}
+.user .inputTxt{background: url("../images/user.gif") no-repeat 280px center;}
+.password .inputTxt{background: url("../images/lock.gif") no-repeat 280px center;}
+.loginBox .user{margin-top:40px;margin-bottom:14px;}
+.chooser input{vertical-align: middle;}
+.chooser label{margin-right:16px;}
+.loginBox .loginBtn{margin-bottom:33px;}
+.loginBtn input{width:305px;height:32px;background-color: #dddddd;line-height: 32px;text-align: center;font-size:14px;border:1px solid #CCCCFF;}
+.loginBox .otherLogin{line-height: 24px;}
+.otherLogin a{padding:0 2px;border-right:1px solid #cccccc;}
+.otherLogin .more{border-right:none;padding-right:11px;background: url("../images/down.gif") no-repeat right center;}
+.loginBox .signIn{width:115px;height:31px;background-color: #7cbe56;line-height: 31px;text-align: center;margin-right:41px; margin-bottom:-31px;position:relative;}
+.signIn a{color:white;font-size:14px;}
+/*register*/
+.registerBox{width:631px;height:576px;border:1px solid #cccccc;margin:10px auto;text-align: center;}
+.registerBox div{text-align: center;margin-bottom:31px;}
+.registerBox .userName{margin-top:70px;}
+.userName input{background: url("../images/user.gif") no-repeat 245px center;}
+.setPassword input{background: url("../images/lock.gif") no-repeat 245px center;}
+.registerBox div span{display: inline-block;width:100px;text-align: right;}
+.registerBox div i{display: inline-block;width:7px;height:8px;background: url("../images/star.gif") no-repeat center;margin-right:5px;}
+.registerBox input{width:260px;height:36px;line-height: 36px;border:1px solid #CCC;padding-left:8px;vertical-align: middle}
+
+.agree input{width:13px;height:13px;vertical-align: middle;*width:15px;*height:15px;}
+.agree a{color:blue;}
+.submitBtn input{font-size:14px;background-color: #eeeeee;}

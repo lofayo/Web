@@ -1,0 +1,71 @@
+/*公用样式*/
+.centerBody{width:1010px;margin: 0 auto;}
+.show{display:block;}
+.hide{display: none;}
+a{color:black;}
+
+
+/*头部*/
+.headerTop{background-color:#F7F7F7;height:31px;line-height:31px;}
+.collection{padding-left:17px;background: url("../images/collection.gif") no-repeat left center;}
+.welcome{margin-right:32px;}
+.welcome a:hover{text-decoration:underline;}
+/*头部搜索栏*/
+.headerSearch{background-color:#1D7AD9;height:85px;line-height:85px;font-size:14px;color:white;}
+.logo{margin:13px 0 0 39px;}
+.search{margin-left:185px;width:429px;height:35px;margin-top:26px;}
+.searchText{width:340px;height:35px;line-height:35px\9;padding:0 5px;background-color: white;}
+.searchBtn{width:69px;height:35px;background-color: #FF8C00;font-size:14px;color:white;font-family: "Microsoft Yahei", serif;}
+.shopCar{width:145px;height:35px;margin-right:70px;margin-top:26px;background-color: #FF8800}
+.shopCar_text{width:47px;height:35px;line-height: 35px;border-right:1px solid #E27A00;padding-left:40px;background: url("../images/shopcar.gif") no-repeat 10px center;}
+.shopCar_num{width:27px;height:35px;line-height: 35px;border-left:1px solid #FF9C01;padding-right:29px;text-align: right;background: url("../images/down.gif") 33px center no-repeat;}
+/*头部导航栏*/
+.headerNav{height:35px;background-color: #1369C0;color:white;}
+.headerNav a{display:inline-block;color:white;}
+.shopClass{width:189px;height:35px;}
+.shopClass h3{font-size:16px;line-height:35px;text-align: center;}
+.shopClass h3 img{margin-left:17px;}
+.navBar li{float: left;height:35px;line-height:35px;}
+.navBar li a{padding:0 26px;font-size:14px;}
+.navBar li a:hover{background-color: #cc7680;}
+.navBar .active{background-color: #4593FD;}
+
+/*网页中间主体————左边列表*/
+.leftArea{width:188px;border:1px solid #CCCCCC;font-family: Songti,serif;background-color: #eeeeee;}
+.deleteLast_border{margin-bottom:-1px;}
+.listTitle{font-weight:bold;font-size:14px;padding:9px 0;text-align: center;}
+.listTitle_line{border:none;height:1px;background-color: #CCCCCC;}
+.listItem{font-size:12px;line-height:24px;width:170px;padding:6px 0 6px 18px;border-bottom:1px dashed #CCCCCC;}
+.listItem a{display:block;}
+.listItem_title{font-weight:bold;clear:both;}
+.listItem_cols1{float:left;width:84px;}
+.listItem_cols2{float:left;width:86px;}
+/*网页中间主体————右边图片展示*/
+.rightArea{width:820px;}
+.bg{position:relative;width:820px;height:325px;overflow: hidden;}
+.bg img{width:820px;position:absolute;top:0;}
+.bg .bg1{z-index: 1;}
+.bg .bg2{z-index: 0;}
+.bg .bgSwitch_pos{position:absolute;bottom:12px;width:100%;text-align: center;z-index: 2;}
+.bgSwitch_pad{display:inline-block;padding:5px 0;cursor: pointer;}
+.bgSwitch_pad div{width:30px;height:5px;display:inline-block;background-color: white;}
+.bgSwitch_pad .active{background-color: #FF7700;}
+.bgSwitch_pad div:hover{background-color: #FF7700;}
+.shopShow{width:820px;}
+.digital{margin-bottom:36px;}
+.shopShow_title{font-family: Songti, serif;line-height:36px;margin-left:10px;}
+.shopShow_line{border:none;height:2px;background-color: #CCCCCC;}
+.shopShow_img{float:left;}
+.shopItem{width:161px;padding:0 22px;height:256px;line-height: 18px;margin-top:14px;float: left}
+.shopItem_img{height:172px;text-align: center;}
+.shopItem_img img{height:172px;}
+.shopItem .desc{margin-bottom:15px;}
+.shopItem .price{color:#CC0099;font-size:16px;font-weight:bold;}
+.shopItem .comment img{vertical-align: text-bottom}
+.comment a{color:#006699;}
+
+/*页面底部*/
+.footer{height:223px;background-color: #D4D4D4;margin-top:79px;text-align: center;line-height:24px;margin-bottom:7px;}
+.about{padding-top:44px;}
+.evaluate{margin-top:30px;}
+.evaluate img{margin-right:21px;}

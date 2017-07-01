@@ -1,0 +1,80 @@
+/*公用样式*/
+.centerBody{width:1010px;margin: 0 auto;}
+.show{display:block;}
+.hide{display: none;}
+a{color:black;}
+.leftArea{float:left;}
+.rightArea{float:right;}
+
+/*头部*/
+.headerTop{background-color:#F7F7F7;height:31px;line-height:31px;}
+.collection{padding-left:17px;background: url("../images/collection.gif") no-repeat left center;}
+.welcome{margin-right:32px;}
+.welcome a:hover{text-decoration:underline;}
+/*头部搜索栏*/
+.process{background-color:#1D7AD9;height:85px;}
+.logo{margin:13px 0 0 39px;}
+.processBar{float:right;margin-right:30px;width:400px;height:40px;margin-top:23px;}
+.processBar .circle{display: inline-block;width:18px;height:18px;background-color: white;text-align: center;border-radius: 9px;}
+.processBar .line{color:yellow;font-weight: bolder;}
+.processBar_desc span{display: inline-block;color:white;}
+.circle1{width:30%;}
+.circle2{width:40%;text-align: center;}
+.circle3{width:30%;text-align: right;}
+.processBar .processing_cir{background-color: yellow;}
+.processBar .processing_desc{color:yellow;font-weight: bold;}
+/*收货信息*/
+.listItem,.goodsList{border:1px solid #CCCCCC;margin-bottom:20px;}
+.listItem_title{height:30px;background-color: #eeeeee;margin-top:1px;border-bottom:1px solid #cccccc;line-height: 30px;padding-left:10px;font-weight: normal;margin-bottom:25px;}
+.listItem>div{margin-left:30px;height:24px;line-height:24px;margin-bottom:14px;}
+.desc{padding-left:13px;background: url("../images/6/star.gif") no-repeat left center;}
+input{height:22px;line-height:22px;border:1px solid #cccccc;padding:0 10px;color:#999;}
+.selectList{height:22px;}
+.OkAddress input{width:114px;height:28px;background-color: #3399FF;text-align: center;color:white;cursor: pointer;}
+.addressDetails input{width:390px;}
+.receiver input{width:90px;}
+.tel input:first-of-type{width:90px;}
+.tel input:nth-of-type(2){width:42px;}
+.tel input:nth-of-type(3){width:78px;}
+.tel input:nth-of-type(4){width:78px;}
+/*支付方式*/
+.payMethod>div{margin-bottom:28px;}
+.payMethod input{vertical-align: middle;margin-right:7px;}
+.payMethod span{margin-left:18px;}
+.payMethod .weixin{padding-left:32px;background: url("../images/6/weixin.gif") no-repeat left center;}
+/*发票信息*/
+.needTicket input{vertical-align: middle;margin-right:7px;}
+.ticketHead input{width:80px;}
+.save_quit input{width:64px;}
+.save_quit .save{background-color: #3399FF;color:white;}
+/*送货清单*/
+.listItem_title span{font-size:1.17em;}
+.listItem_title a{color:blue;float:right;margin-right:32px;}
+.goodsList p{margin-bottom:0;}
+.goodsMess_head{height:34px;line-height:34px;border-bottom:1px solid #cccccc;}
+.goodsMess_head span{margin-left:30px;}
+.goodsMess_head ul{float:right;}
+.goodsMess_head ul li{display:inline-block;margin-right:110px;}
+.goodsMess_body{height:100px;border-bottom:1px solid #cccccc;}
+.goodsMess_body div{float:left;}
+.goodsMess_body .img{margin-left:56px;}
+.goodsMess_body .desc{margin-left:25px;width:350px;padding:0;background: none;margin-top:10px;}
+.goodsMess_body .num{width:135px;margin-top:10px;}
+.goodsMess_body p:last-of-type{margin-top:40px;}
+.goodsList_last{margin-left:30px;}
+.goodsList_last span{display:inline-block;margin-top:12px;color:blue;}
+.goodsList_last .sorry{margin-top:32px;padding-left:22px;background: url("../images/6/sorry.gif") no-repeat left center;color:red;}
+.goodsList_last .noGoods{margin-top:22px;margin-bottom:20px;}
+.noGoods img{float:left;}
+.noGoods div{float:left;margin-left:10px;line-height: 24px;}
+.noGoods div span{margin-top:0;color:red;}
+/*订单结算*/
+.listItem .orderSum{height:142px;float:right;margin-right:20px;}
+.orderSum span{color:red;font-size:24px;display: inline-block;margin-top:40px;}
+.orderSum input{width:167px;height:35px;background-color: red;color:white;text-align: center;margin-top:20px;}
+
+/*页面底部*/
+.footer{height:223px;background-color: #D4D4D4;margin-top:79px;text-align: center;line-height:24px;margin-bottom:7px;}
+.about{padding-top:44px;}
+.evaluate{margin-top:30px;}
+.evaluate img{margin-right:21px;}

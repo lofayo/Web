@@ -1,0 +1,149 @@
+/*common style*/
+.centerBody{width:1010px;margin: 0 auto;}
+.show{display:block;}
+.hide{display: none;}
+a{color:black;}
+.leftArea{float:left;}
+.rightArea{float:right;}
+body{background-color: #f0f0f0;}
+
+/*header*/
+.headerTop{background-color:#F7F7F7;height:31px;line-height:31px;}
+.collection{padding-left:17px;background: url("../images/collection.gif") no-repeat left center;}
+.welcome{margin-right:32px;}
+.welcome a:hover{text-decoration:underline;}
+/*header search*/
+.headerSearch{background-color:#1D7AD9;height:85px;font-size:14px;color:white;}
+.logoLink{display:inline-block;width:190px;text-align:center;float:left;margin-top:13px;}
+.search{width:419px;height:35px;margin:26px 0 0 147px;float:left;display: inline;}
+.searchText{width:340px;height:35px;line-height:35px;padding:0 5px;background-color: white;float:left;}
+.searchBtn{width:69px;height:35px;background-color: #FF8C00;font-size:14px;color:white;font-family: "Microsoft Yahei", serif;float:left;}
+.shopCar{width:145px;height:35px;line-height:35px;margin-right:70px;margin-top:26px;background-color: #FF8800;float:right;display: inline;}
+.shopCar_text{display: inline-block;padding-left:40px;padding-right:5px;background: url("../images/shopcar.gif") no-repeat 10px center;border-right:1px solid #E27A00;}
+.shopCar_num{display:inline-block;width:27px;text-align: right;padding-right:29px;background: url("../images/down.gif") no-repeat 33px center;border-left:1px solid #FF9C01;}
+
+/*header nav*/
+.headerNav{height:35px;line-height:35px;background-color: #1369C0;color:white;}
+.headerNav a{display:inline-block;color:white;}
+.shopClass{width:189px;height:35px;}
+.shopClass h3{font-size:16px;text-align: center;}
+.shopClass h3 img{margin-left:17px;}
+.navBar li{float: left;height:35px;}
+.navBar li a{padding:0 26px;font-size:14px;}
+.navBar li a:hover{background-color: #cc7680;}
+.navBar .active{background-color: #4593FD;}
+
+/*main shop*/
+.content{height:40px;line-height:40px;margin-top:10px;}
+.mainShop{background-color: white;border:1px solid #ccc;height:590px;width:1008px;margin-bottom:20px;}
+.mainShop_img{width:30%;height:590px;border-right:1px solid #ccc;}
+.img{margin:22px 0;text-align: center;width:100%;}
+.img_small{margin-left:17px;}
+.img_small a{float:left;border:1px solid #CCC;}
+.img_small a:hover{border:1px solid blue;position: relative;}
+.img_small a+a{margin-left:-1px;}
+.mainShop_desc{width:70%;font-size:14px;height:590px;margin-left:-1px;}
+.desc_item{margin:10px 0 14px 22px;}
+.mainShop_title{margin-top:25px;}
+.mainShop_title h3{font-size:16px;}
+.desc_itemTitle{display: inline-block;width:60px;}
+.price{font-size:16px;color:red;}
+.change{padding-left:60px;background: url("../images/4/arrow.jpg") no-repeat left center;}
+.select{margin:0 10px;background-color: #eee;height:225px;padding-top:20px;}
+.select .desc_item{margin-left:12px;}
+.select select{width:150px;height:22px;}
+.desc_item input{text-align: center;border:1px solid #ccc;background-color: white;}
+.chooseColor input{width:82px;height:32px;*height:30px;margin-right:6px;vertical-align: middle;}
+.desc_item .active{border-color:blue;}
+.chooseTxt{float:left;line-height:68px;}
+.chooseSize{float:left;width:90%;margin-left:4px;*margin-left:2px;}
+.chooseSize input{height:24px;*height:22px;padding:0 12px;*overflow:visible;margin-bottom:10px;margin-right:6px;}
+.chooseNum input{height:32px;*height:30px;box-sizing: border-box;vertical-align: middle;}
+.chooseNum input{margin-left:-1px;}
+.chooseNum .cut{margin-left:0;}
+.chooseNum .cut,.chooseNum .add{width:15px;background-color: #eeeeee;}
+.chooseNum .num{width:50px;*height:28px;*line-height:28px;}
+.chooseNum span:last-of-type{margin-left:10px;}
+.chooseNum span:last-of-type em{font-style:normal;color:red;}
+.choosed{margin-left:24px;margin-top:22px;}
+.choosed .choosedType{color:blue;}
+.button{height:90px;margin-top:20px;margin-left:24px;}
+.button a{display: inline-block;width:184px;height:46px;line-height:46px;background-color: #FF9900;margin:14px 40px;color:white;text-align: center;font-size:20px;}
+.button a span{display:inline-block;width:24px;height:46px;margin-right:14px;background: url("../images/shopcar.gif") no-repeat left center;vertical-align: middle;}
+.button .addCar,.buyNow{float:left;}
+.button .addCar{border-right:1px solid #ccc;}
+.notice{margin-left:24px;color:#666;}
+
+/*same price and final buy*/
+.samePrice,.finalBuy{width:188px;border:1px solid #ccc;background-color: white;}
+.headTitle{background-color: #dddddd;height:40px;line-height:40px;border:1px solid #ccc;}
+.leftArea .headTitle h3{margin-left:20px;}
+.item{text-align: center;padding:0 10px;margin-bottom:20px;}
+.item img{margin:10px 0;}
+.itemDesc{color:#999;}
+.itemDesc_price{text-align: left;color:red;font-weight:bold;}
+.finalBuy{margin-top:20px;}
+/*right comment*/
+.commentConsult{width:800px;}
+.commentConsult .headTitle h3{margin:0;text-align: center;width:50%;}
+.shopIntro{float:left;background-color: blue;color:white;}
+.shopIntro span{padding-left:30px;background: url("../images/4/shopIntro.png") no-repeat left center;}
+.shopComment{float:right;}
+.shopComment span{padding-left:30px;background: url("../images/4/shopComment.png") no-repeat left center;}
+.shopIntro_zone{background-color: white;border:1px solid #ccc;margin-bottom:20px;margin-top:-1px;}
+.ads{text-align: center;padding-top:20px;padding-bottom:40px;}
+.recommend,.beautImg{padding:0 20px;margin-bottom:40px;}
+.recommend span,.beautImg span{padding:10px;}
+.shopIntro_title{font-size:14px;color:blue;border-bottom:2px solid blue;position:relative;}
+.underLine{border:none;height:2px;*height:3px;background-color: #cccccc;margin-top:10px;float:left;clear:both;width:100%;}
+.shopIntro_text{margin-top:15px;line-height:24px;}
+.beautImg_img{text-align: center;margin-top:30px;overflow: hidden;width:758px;}
+.comment{border:1px solid #cccccc;}
+.commentZone{height:158px;background-color: white;padding-left:10px;}
+.commentText{padding-top:10px;}
+.commentScore{margin-top:32px;}
+.score{float:left;font-size:20px;}
+.score span{font-size:40px;color:#FF9933}
+.satisfy{float:left;margin-left:20px;font-size:14px;}
+.satisfy ul{background-color: #cccccc;}
+.satisfy ul li{display: inline;margin:0 30px;}
+.satisfy p{float:left;margin-top:10px;}
+.commentList{height:398px;background-color: white;}
+.commentList_title{height:32px;background-color: #eeeeee;line-height:32px;}
+.commentList_title ul{float:left;}
+.commentList_title li{display: inline-block;margin:0 20px;line-height:32px;height:32px;box-sizing:border-box;}
+.commentList_title li:hover{border-bottom:3px solid blue;}
+.order{float:right;margin-right:10px;display: inline;}
+.order span{padding:0 5px;border:1px solid #cccccc;background-color: white;}
+.order span a{font-size:14px;padding-right:14px;background: url("../images/4/downArrow.jpg") no-repeat right center;}
+.commentList_item{margin:20px 40px;}
+.member{float:left;line-height: 20px;text-align: center;}
+.memberComment{float:left;margin-left:70px;}
+.memberComment p{line-height:30px;}
+.satisfyStar{display: inline-block;width:75px;height:14px;background: url("../images/collection.gif") repeat-x center;margin-right:10px;margin-bottom: -2px;}
+.memberComment p a{color:blue;}
+.time{float:right;color:#999;}
+/*comment page*/
+.page{float:right;margin-right:40px;margin-top:30px;}
+.page span,.page a,.page input{border:1px solid #ccc;padding:0 8px;display: inline-block;float:left;margin-right:4px;}
+.page span,.page a,.page .txt{height:24px;line-height:24px;}
+.page input{text-align: center;box-sizing:content-box;}
+.page span{border:none;padding:0;}
+.txt{width:30px;}
+.page .btn{height:24px;*height:26px;}
+/*total consult*/
+.totalConsult{height:475px;background-color: white;margin-top:20px;}
+.totalConsult_title a{display: inline-block;height:36px;line-height: 36px;box-sizing: border-box;color:blue;}
+.totalConsult_title .totalRes{width:20%;text-align: center;border:1px solid blue;border-bottom: none;}
+.totalConsult_title .consult{width:80%;*width:77%;text-align: right;border-bottom: 1px solid blue;padding-right:20px;}
+.tips{background-color: #eeeeee;line-height:24px;margin: 10px 20px;padding:10px 20px;}
+.consultItem{margin:20px 40px 20px 60px;}
+.memberConsult{float:left;margin-left:30px;width:606px;line-height:24px;}
+.shopCons{font-weight:bold;}
+.chat{color:#999;}
+.answer{float:left;width:586px;height:54px;background-color: #eeeeee;line-height:54px;margin-left:30px;margin-top:10px;padding-left:20px;}
+/*web footer*/
+.footer{height:223px;background-color: #D4D4D4;margin-top:79px;text-align: center;line-height:24px;margin-bottom:7px;}
+.about{padding-top:44px;}
+.evaluate{margin-top:30px;}
+.evaluate img{margin-right:21px;}
